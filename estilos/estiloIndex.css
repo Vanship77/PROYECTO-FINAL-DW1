@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+}
+
+
+/*--Estilos Header--*/
+  /*Header*/
+/*Header*/
+header {
+    padding: 17%;
+    text-align: center;
+    background: url('/imagenes/logos/logoHeader.png') #0000;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center 0;
+}
+
+header .contenedor {
+
+    position: relative;
+    height: 100%;
+}
+
+header .menu {
+    width: 100%;
+    text-align: inherit;
+}
+
+header .menu a {
+    color: rgb(0, 0, 0);
+    font-family: "Libre Bodoni", serif;
+    display: inline-block;
+    font-size: 117%;
+    font-weight: 30;
+    margin: 20px 10px;
+    text-decoration: none;
+    position: relative;
+    text-align: left;
+}
+
+header .estefania {
+    margin: 1%;
+    color: #000000;
+    font-size: 500%;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header .centrosesteticos {
+    margin: 1%;
+    color: #000000;
+    font-size: 250%;
+    font-weight: 40;
+    font-style: normal;
+}
+
+header .menu a:hover {
+    color: rgb(255, 4, 192);
+    text-decoration: underline;
+}
+
+/*fin Header*/
+/*fin Header*/
+
+
+/*---MAIN---*/
+
+.main {
+    background: url(../texturas/texturaRosa.jpg);
+}
+
+
+/*-----------secccion frasess---------*/
+.inicio-frase {
+    margin-top: 120px;
+}
+
+.inicio-frase .primera-frase {
+    background-color: #000;
+}
+
+.inicio-frase .primera-frase p {
+
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.inicio-frase .segunda-frase p {
+    text-align: center;
+    font-size: 22px;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+}
+
+/*-----------Fin secccion frases---------*/
+
+/*-----------secccion descripcion---------*/
+.informacion {
+    margin-top: 50px;
+
+}
+
+.informacion .contenedor-info .contenedor-titulo {
+    font-size: 20px;
+    text-align: center;
+    color: #493d2b;
+}
+
+.informacion .contenedor-info .contenedor-descripcion {
+   
+    position: relative;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #493d2b;
+}
+
+.informacion .contenedor-info .contenedor-img {
+    position: relative;
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 60%;
+}
+
+.informacion .contenedor-info .contenedor-img img {
+    width: 100%;
+}
+
+/*-----------fin seccion descipcion---------*/
+
+/*-----------secccion mennu servicios---------*/
+.main .Menu {
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+.main .Menu .titulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+}
+
+.main .titulo-servicio {
+    margin: auto;
+    width: 95%;
+    overflow: hidden;
+
+}
+
+.main .titulo-servicio .titulo {
+    width: 50%;
+    margin-left: 25%;
+    font-family: "Dancing Script", cursive;
+
+}
+
+.main .menu-servicio {
+
+    overflow: hidden;
+    padding-left: 15%;
+}
+
+.main .Menu .contenedor-servicio {
+    float: left;
+    width: 23%;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid #616161;
+    background-color: #575757;
+}
+
+.main .Menu .contenedor-servicio img {
+    width: 100%;
+    opacity: .6;
+}
+
+.main .Menu .contenedor-servicio img:hover {
+    opacity: 1;
+    transition: all .3s ease;
+}
+
+.main .Menu .contenedor-servicio a {
+    display: grid;
+    text-align: center;
+    color: #ff83e0;
+    font-family: "Dancing Script", cursive;
+
+}
+
+.main .Menu .contenedor-servicio article p {
+    text-align: center;
+    font-size: 13px;
+
+    color: rgb(249, 188, 255);
+}
+
+/*fin seccion menu servicios*/
+
+
+/*Inicio foto final*/
+.main .img-final{
+    margin-top: 70px;
+width: 100%;
+
+}
+.main .contenedor-img img{
+    width: 60%;
+    padding: 30px;
+    margin-left: 330px;
+}
+
+
+/*Fin foto final*/
+
+/*Estilos del Footer*/
+
+footer {
+    background: #000;
+    font-size: 100%;
+}
+
+footer .copyright {
+    color: #fff;
+    font-family: "Nanum Brush Script", cursive;
+
+    text-align: center;
+    padding: 15x 0;
+
+}
+footer .copyright a{
+    color: #000000;
+}
+footer .copyright a:hover{
+    color: #ff009d;
+    text-decoration: underline;
+}
+
+
+
+/*Media querys*/
+@media screen and (max-width: 800px) {
+    header .contenedor {
+        position: static;
+        height: auto;
+    }
+
+    header .texto {
+        position: static;
+        margin: 100px 0;
+    }
+
+    header .menu {
+        position: absolute;
+        text-align: center;
+
+    }
+
+    header .menu a {
+        padding: 20px 10px;
+    }
+
+    header .texto .nombre {
+        font-size: 30px;
+    }
+
+    header .texto .nombre span {
+        font-size: 30px;
+    }
+
+    header .texto h3 {
+        font-size: 18px;
+    }
+
+    .main .acerca-de .foto {
+        position: relative;
+        width: 100%;
+
+    }
+
+    .main .acerca-de article {
+        position: relative;
+        width: 100%;
+        top: -50px;
+
+    }
+
+    .main .menu article {
+        width: 100%;
+        padding: 10px;
+        background-image: url('../imagenes/logos/logoMorado.png');
+    }
+
+    .main .galeria .foto {
+        width: 50%;
+    }
+
+    .main .mapa {
+        position: relative;
+        width: 100%;
+    }
+
+}
