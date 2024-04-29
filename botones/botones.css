@@ -72,6 +72,9 @@ header .centrosesteticos {
     font-style: normal;
 }
 
+header .menu a{
+   
+}
 header .menu a:hover {
     color: rgb(255, 4, 192);
     text-decoration: underline;
@@ -79,62 +82,6 @@ header .menu a:hover {
 
 /*fin Header*/
 /*fin Header*/
-
-    /*---MAIN---*/
-
-    .main {
-        background: url(../texturas/texturaRosa.jpg);
-    }
-
-    .main .acercade .contenedor {
-
-        overflow: visible;
-        position: relative;
-
-    }
-
-    .main .acercade .foto {
-        width: 80%;
-        position: absolute;
-        left: 0;
-        top: -50px;
-        z-index: 0;
-        box-shadow: 0px 0px 50px rgba(16, 119, 145, 0.35);
-    }
-
-    .main .acercade .foto img {
-        vertical-align: top;
-        width: 100%;
-    }
-
-    .main .acercade article {
-        background: aliceblue;
-        padding: 40px;
-        width: 50%;
-        position: relative;
-        top: 100px;
-        z-index: 1;
-        float: left;
-        box-shadow: 50px 50px 15px rgba(0, 0, 0, 0.35);
-    }
-
-    .main .acercade article h1 {
-        font-size: 50px;
-        font-weight: 300;
-        margin-bottom: 40px;
-    }
-
-    .main .acercade article p {
-        line-height: 28px;
-        margin-bottom: 15px;
-
-    }
-
-
-
-
-
-
 /*-----------secccion frasess---------*/
 .inicio-frase {
     margin-top: 120px;
@@ -268,162 +215,48 @@ header .menu a:hover {
 
 /*fin seccion menu servicios*/
 
-
-/*Inicio foto final*/
-.main .img-final{
-    margin-top: 70px;
-width: 100%;
-
-}
-.main .contenedor-img img{
-    width: 60%;
-    padding: 30px;
-    margin-left: 330px;
+/*Mapa*/
+.main .mapa iframe {
+    width: 70%;
+    max-height: 600px;
 }
 
+.main .mapa {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 
-/*Fin foto final*/
+}
 
+/*Estilos del Footer*/
 
-
-/*----seccion ubicacion----*/
-
-
-    /*Media querys*/
-    @media screen and (max-width: 800px) {
-        header .contenedor {
-            position: static;
-            height: auto;
-        }
-
-        header .texto {
-            position: static;
-            margin: 100px 0;
-        }
-
-        header .menu {
-            position: absolute;
-            text-align: center;
-
-        }
-
-        header .menu a {
-            padding: 20px 10px;
-        }
-
-        header .texto .nombre {
-            font-size: 30px;
-        }
-
-        header .texto .nombre span {
-            font-size: 30px;
-        }
-
-        header .texto h3 {
-            font-size: 18px;
-        }
-
-        .main .acerca-de .foto {
-            position: relative;
-            width: 100%;
-
-        }
-
-        .main .acerca-de article {
-            position: relative;
-            width: 100%;
-            top: -50px;
-            
-        }
-
-        .main .menu article {
-            width: 100%;
-            padding: 10px;
-            background-image: url('../imagenes/logos/logoMorado.png');
-        }
-
-        .main .galeria .foto {
-            width: 50%;
-        }
-
-        .main .mapa {
-            position: relative;
-            width: 100%;
-        }
-
-    }
-
-    .main .galeria .foto img {
-
-        width: 100%;
-        vertical-align: bottom;
-        opacity: .7;
-    }
-
-
-    .main .galeria .foto img:hover {
-        opacity: 1;
-        -webkit-transition: all .3s ease;
-        -o-transition: all .3s ease;
-        transition: all .3s ease;
-    }
-
-    /*Estilos de la ubicacion*/
-    .main .ubicacion {
-        background-image: url('../imagenes/logos/logoMorado.png');
-        padding: 60px 0;
-        overflow: hidden;
-    }
-
-    .main .ubicacion .titulo {
-        text-align: center;
-        font-size: 40px;
-        line-height: 40px;
-        font-weight: 300;
-        margin-bottom: 40px;
-    }
-
-    .main .ubicacion .direccion {
-        float: left;
-        width: 50%;
-        text-align: left;
-    }
-
-    
-
-
-
- 
-
-    .main .mapa {
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .main .mapa iframe {
-        width: 100%;
-        max-height: 600px;
-    }
-
-    /*Estilos del Footer*/
-    
 footer {
     background: #000;
-    font-size: 100%;
+    font-size: 150%;
+    
 }
+
 
 footer .copyright {
     color: #fff;
+  
     font-family: "Nanum Brush Script", cursive;
 
     text-align: center;
     padding: 15x 0;
 
 }
-footer .copyright a{
-    color: #000000;
+footer .copyright {
+    color: #ffffff;
 }
 footer .copyright a:hover{
     color: #ff009d;
     text-decoration: underline;
+}
+footer .copyEst{
+    color: #fff ;
+    text-decoration: none;
+} 
+.copyDessa{
+    color: #000000;
 }

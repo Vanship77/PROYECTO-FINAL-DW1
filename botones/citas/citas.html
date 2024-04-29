@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/estiloIndex.css">
-    <link rel="stylesheet" href="../botones.css">
+    <link rel="stylesheet" href="/estilos/estiloIndex.css">
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..000;1,300..800&display=snap"
             rel="stylesheet">
@@ -43,14 +42,45 @@
             </nav>
         </div>
         </header>
-        <footer>
+        <h2>Aqui puedes agendar una cita</h2>
+        <div class="formulario">
+            <h2>Agendar Cita</h2>
+            <form action="#" method="post">
+              <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+              </div>
+              <div class="campo">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+              </div>
+              <div class="campo">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+              </div>
+              <div class="campo">
+                <label for="fecha">Fecha y Hora:</label>
+                <input type="datetime-local" id="fecha" name="fecha" required>
+              </div>
+              <div class="campo">
+                <label for="mensaje">Mensaje adicional:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+              </div>
+              <a href="/index.html">Agendar Cita
+              </a>                
+            </form>
+            
+        </div>
+          <footer>
             <div class="contenedor">
                 <div class="copyright">
-                    <p> &copy; Derechos Reservados Ahoish'jha&reg; &copy; Estefanía Morales en 2024 &raquo;
-                        [andrakolis][vanship][ismael] <a href="botones/desarrolladores/desarrolladores.html">desarrolladores</a> </p>
+                    <p> &copy; Derechos Reservados Ahoish'jha&reg; &copy; <a  class="copyEst" href="/botones/sobreEstefania/estefania.html">Estefanía Morales</a>
+                        en 2024 por
+                        [andrakolis][vanship][ismael] <a href="botones/desarrolladores/desarrolladores.html" class="copyDessa">Ahoish'jha</a> </p>
                 </div>
             </div>
         
     </footer>
+    
 </body>
 </html>
